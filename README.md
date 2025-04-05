@@ -9,31 +9,30 @@ This project analyzes heart disease prediction by performing data preprocessing,
 ## Data Preprocessing
 
 **Before Preprocessing:**  
-![Before Preprocessing](images/Picture 1.png)
+![Before Preprocessing](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%201.png)
 
 **After Preprocessing:**  
-![After Preprocessing](images/Picture 2.png)
-
+![After Preprocessing](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%202.png)
 **Data Processing:**  
-![Data Processing](images/Picture 3.png)
+![Data Processing](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%203.png)
 
 ---
 
 ## Pairplots and Data Visualizing to find meaningful insights
 
-![Visualization 1](images/Picture 4.png)  
-![Visualization 2](images/Picture 5.png)  
-![Visualization 3](images/Picture 6.png)  
-![Visualization 4](images/Picture 7.png)
+![Visualization 1](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%204.png)  
+![Visualization 2](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%205.png)  
+![Visualization 3](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%206.png)  
+![Visualization 4](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%207.png)
 
 ---
 
 ## Confusion Matrix
 
-![Confusion Matrix](images/Picture 8.png)
+![Confusion Matrix](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%208.png)
 
 ---
 
 ## Checking the accuracy of all the models and selecting the best model
 
-![Model Accuracy](images/Picture 9.png)
+![Model Accuracy](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%209.png)
