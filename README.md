@@ -13,6 +13,7 @@ This project analyzes heart disease prediction by performing data preprocessing,
 
 **After Preprocessing:**  
 ![After Preprocessing](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%202.png)
+
 **Data Processing:**  
 ![Data Processing](https://github.com/Arjjun-S/CardioVascularAIModel/blob/54a95e17b2ef0f11da493129165eb138fc520197/images/Picture%203.png)
 
