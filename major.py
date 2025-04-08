@@ -48,3 +48,28 @@ plt.figure(figsize=(12, 8))
 sns.heatmap(correlation_matrix, annot=True)   
 plt.title("Correlation Matrix Heatmap")
 plt.show()
+# Split dataset into features and target variable
+X = df.drop(columns=['cardio'])  # Features
+y = df['cardio']  # Target variable
+# Split into training and test sets (without random_state)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+# Scale the data
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+# Initialize models
+models = {"Support Vector Machine": SVC(),"K-Nearest Neighbors": KNeighborsClassifier(),"Decision Tree": DecisionTreeClassifier(),"Logistic Regression": LogisticRegression(),"Random Forest": RandomForestClassifier()}
+# Train and evaluate each model using .score()
+results = {}
+for name, model in models.items():
+    model.fit(X_train, y_train)
+    accuracy = model.score(X_test, y_test)  # Using .score()
+    results[name] = accuracy
+
+# Print accuracy results
+for model, acc in results.items():
+    print(f"{model}: {acc:.4f}")
+# Choose the best model
+best_model = max(results, key=results.get)
+print(f"\nBest Model: {best_model} with accuracy {results[best_model]:.4f}")
+print(results)
